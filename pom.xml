@@ -24,7 +24,6 @@
 
 
     <build>
-        <pluginManagement>
             <plugins>
                 <plugin>
                     <groupId>org.springframework.boot</groupId>
@@ -47,7 +46,6 @@
                     </configuration>
                 </plugin>
             </plugins>
-        </pluginManagement>
     </build>
     <scm>
         <developerConnection>scm:git:https://github.com/saadalmogren/sfg-pet-clinic.git</developerConnection>
