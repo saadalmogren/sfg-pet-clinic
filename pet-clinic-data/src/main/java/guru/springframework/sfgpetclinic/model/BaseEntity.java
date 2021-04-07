@@ -7,6 +7,7 @@ import javax.persistence.MappedSuperclass;
 import java.io.Serializable;
 
 //To tell JPA that other classes will inherit from this class
+//It will be created in the database
 @MappedSuperclass
 public class BaseEntity implements Serializable {
     @Id
